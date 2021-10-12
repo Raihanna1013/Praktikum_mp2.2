@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Praktikum1.MainActivity">
+
+   <Button
+       android:id="@+id/btnExplicit"
+       android:layout_width="match_parent"
+       android:layout_height="55dp"
+       android:layout_marginTop="284dp"
+       android:text="Explincit Intent"
+       android:textColor="@color/white"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnImplicit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Implicit Intent"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnExplicit"/>
+    <Button
+        android:id="@+id/btnIntent"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Passing Data"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnImplicit"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

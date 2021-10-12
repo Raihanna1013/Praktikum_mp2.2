@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Praktikum1.Implicit.Implicit_Intent">
+
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter phone no."
+        android:textColor="@color/black"
+        android:inputType="phone"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Camera"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/etNo" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Contact"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnCamera" />
+
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Browser"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnContact" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Gallery"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnBrowser" />
+
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Dialpad"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnGallery" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Maps"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnDial" />
+
+    <Button
+        android:id="@+id/btnWA"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="WhatsApp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnMaps" />
+
+    <Button
+        android:id="@+id/btnTele"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Telegram"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnWA" />
+
+    <Button
+        android:id="@+id/btnIG"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Instagram"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnTele" />
+
+    <Button
+        android:id="@+id/btnFB"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Facebook"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnIG" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Email"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnFB" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
